@@ -5,6 +5,10 @@ client_scripts({
     "client.lua"
 });
 files({
-    "html/index.html"
+    "html/index.html",
+    "html/index.js",
+    "html/style.css",
+    "html/images/*.png",
+    "html/images/*.svg",
 })
 ui_page "html/index.html"
