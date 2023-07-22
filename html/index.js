@@ -16,3 +16,9 @@ $(document).ready(function () {
         
     })
 });
+
+
+
+let iconName = "";
+let massage = "";
+let color = "";
