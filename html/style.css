@@ -46,12 +46,14 @@ body {
     background-color: #8dfd9e;
     border-radius: 20px;
     /* margin-right: 5px; */
+    margin-right: 5px;
 }
 
 .content #showmsg {
     color: #fff;
     font-weight: 400;
     font-size: 16px;
+    text-align: justify;
 }
 
 .text-area h1 {
