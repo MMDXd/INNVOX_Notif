@@ -24,7 +24,6 @@ body {
     border-radius: 15px 15px 0 0;
     padding: 10px 10px;
     background-color: #555555;
-    border-left: 5px solid #8dfd9e;
 
     /* animatoins */
     transition: all 1s;
@@ -43,7 +42,6 @@ body {
 .content img {
     width: 50px;
     padding: 5px;
-    background-color: #8dfd9e;
     border-radius: 20px;
     /* margin-right: 5px; */
     margin-right: 5px;
@@ -73,7 +71,7 @@ body {
 
     /* anim */
     transition: all 1s;
-    animation: loaderAnim 5s forwards;
+    animation: loaderAnim 4s forwards;
     animation-delay: 1s;
 }
 
@@ -133,7 +131,7 @@ body {
 
     100% {
         transform: translateX(-150%);
-        
+    
     }
 }
 
