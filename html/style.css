@@ -35,7 +35,7 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 5px;
 }
 
