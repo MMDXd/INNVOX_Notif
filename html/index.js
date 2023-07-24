@@ -29,7 +29,7 @@ $(document).ready(function () {
             color: '#8dfd9e'
         },
     }
-    showNotf(typeDatas["success"].color, typeDatas["success"].image, "TEST", "Salam Da")
+    showNotf(typeDatas["success"].color, typeDatas["success"].image, "Exampele", "Lorem ipsum dolor sit.")
     window.addEventListener("message", (event) => {
         let data = event.data
         let type = data.type
