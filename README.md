@@ -12,7 +12,7 @@ modern notify for all servers
 
 
 ## Preview ##
-<video controls>
+<video width="320" height="240" controls>
   <source src="https://cdn.discordapp.com/attachments/791700554275356742/1133364080443404348/InShot_20230725_151310601.mp4" type="video/mp4">
 </video>
 
