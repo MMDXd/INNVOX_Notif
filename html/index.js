@@ -26,10 +26,26 @@ $(document).ready(function () {
         },
         error: {
             image: 'error.png',
-            color: '#8dfd9e'
+            color: '#E57373'
+        },
+        warn: {
+            image: 'warn.png',
+            color: '#FFF176'
+        },
+        info: {
+            image: 'info.png',
+            color: '#536DFE'
+        },
+        system: {
+            image: 'system.png',
+            color: '#9CCC65'
+        },
+        announce : {
+            image: 'announce.png',
+            color: '#E040FB'
         },
     }
-    showNotf(typeDatas["success"].color, typeDatas["success"].image, "Exampele", "Lorem ipsum dolor sit.")
+    showNotf(typeDatas["success"].color, typeDatas["success"].image, "Innvox", "notify loaded ! -Team")
     window.addEventListener("message", (event) => {
         let data = event.data
         let type = data.type
