@@ -12,7 +12,7 @@ modern notify for all servers
 
 
 ## Preview ##
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://cdn.discordapp.com/attachments/791700554275356742/1133364080443404348/InShot_20230725_151310601.mp4)
+[![Watch the video](https://media.discordapp.net/attachments/1100151190009950260/1131509437505486928/innvox.png?width=640&height=640)](https://cdn.discordapp.com/attachments/791700554275356742/1133364080443404348/InShot_20230725_151310601.mp4)
 
 ## Programming languages used ##
 Input:
