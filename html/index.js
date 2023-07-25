@@ -34,6 +34,6 @@ $(document).ready(function () {
         let data = event.data
         let type = data.type
         if (!typeDatas[type]) return console.error("This type is not registered")
-        showNotf(typeDatas[type].color, typeDatas[type].image, data.title, title.message)
+        showNotf(typeDatas[type].color, typeDatas[type].image, data.title, data.message)
     })
 });
