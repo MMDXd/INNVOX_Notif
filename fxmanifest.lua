@@ -8,7 +8,11 @@ files({
     "html/index.html",
     "html/index.js",
     "html/style.css",
-    "html/images/*.png",
-    "html/images/*.svg",
+    "html/images/announce.png",
+    "html/images/error.png",
+    "html/images/info.png",
+    "html/images/success.png",
+    "html/images/system.png",
+    "html/images/warn.png",
 })
 ui_page "html/index.html"
