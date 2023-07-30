@@ -2,10 +2,6 @@
 modern notify for all servers
 
 
-## Base ##
-[esx](https://github.com/mitlight/es_extended) (es_extended).
-
-
 ## Team members ##
 - <a href="https://github.com/Mohammadsdq" target="_blank">@MaMaD</a>
 - <a href="https://github.com/MMDXd" target="_blank">@XdMMD</a>

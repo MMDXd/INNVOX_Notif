@@ -1,3 +1,7 @@
+lua54 "yes"
+client_script '@F-AC/antiInjection/client.lua'
+server_script '@F-AC/antiInjection/server.lua'
+
 fx_version('cerulean')
 games({ 'gta5' })
 author "INNVOX Team"
@@ -6,13 +10,9 @@ client_scripts({
 });
 files({
     "html/index.html",
-    "html/index.js",
+    "html/*.js",
     "html/style.css",
-    "html/images/announce.png",
-    "html/images/error.png",
-    "html/images/info.png",
-    "html/images/success.png",
-    "html/images/system.png",
-    "html/images/warn.png",
+    "html/images/*.png",
+    "html/sounds/*.ogg",
 })
 ui_page "html/index.html"
