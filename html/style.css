@@ -11,7 +11,7 @@ body {
 .notifs {
     position: absolute;
     left: 20px;
-    bottom: 190px;
+    bottom: 230px;
     display: flex;
     flex-direction: column;
     gap: 10px;
