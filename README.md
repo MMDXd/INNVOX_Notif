@@ -8,7 +8,7 @@ modern notify for all servers
 
 
 ## Preview ##
-<img src="https://cdn.discordapp.com/attachments/791700554275356742/1136295593036222564/InShot_20230802_172020698.gif">
+![My Image](https://cdn.discordapp.com/attachments/791700554275356742/1136295593036222564/InShot_20230802_172020698.gif)
 
 
 ## Programming languages used ##
