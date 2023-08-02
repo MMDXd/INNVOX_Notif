@@ -8,7 +8,7 @@ Notify System
 
 
 ## Preview ##
-![My Image](https://cdn.discordapp.com/attachments/791700554275356742/1136295592449032364/InShot_20230802_172149640.mp4)
+https://github.com/MMDXd/INNVOX_Notif/assets/102690832/0276d620-97a6-4f37-8cd4-be1d66d01369
 
 
 ## Programming languages used ##
