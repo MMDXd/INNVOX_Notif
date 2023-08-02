@@ -13,7 +13,7 @@ $(document).ready(function () {
         warn: {
             image: 'warn.png',
             color: '#FFF176',
-            sound: "./sounds/info.ogg"
+            sound: "./sounds/warn.ogg"
         },
         info: {
             image: 'info.png',
@@ -58,6 +58,7 @@ $(document).ready(function () {
         addNotif.appendChild(newNotify)
     
     };
+    window.showNotf = showNotf
 
     // For test
     // showNotf(typeDatas["success"].color, typeDatas["success"].image, "Innvox", "notify loaded ! -Team", "./sounds/success.ogg")
