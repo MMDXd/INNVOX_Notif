@@ -8,7 +8,7 @@ Notify System
 
 
 ## Preview ##
-https://github.com/MMDXd/INNVOX_Notif/assets/102690832/0276d620-97a6-4f37-8cd4-be1d66d01369
+https://github.com/MMDXd/INNVOX_Notif/assets/102690832/5046fdaf-9cb6-4721-a892-49bde5621aa6
 
 
 ## Programming languages used ##
