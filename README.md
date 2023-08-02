@@ -25,6 +25,7 @@ Input:
 - Animation
 - Modern
 - 3d icons
+- Sounds
 
 
 ## Installation ##
@@ -35,5 +36,12 @@ start INNVOX_Notif
 
 
 ## Changelog ##
-#### Version 1.3 ####
-- All files uploaded.
+#### Version 2.1 ####
++ All files uploaded.
++ Change colors.
++ Change images.
++ Add sounds.
++ Add loader color.
++ Fixed bugs.
++ Fixed Animations.
++ New postions.

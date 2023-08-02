@@ -22,9 +22,9 @@ body {
     width: 300px;
     display: flex;
     flex-direction: column;
-    border-radius: 15px 15px 0 0;
+    border-radius: 10px 10px 10px 0;
     padding: 10px 10px;
-    background-color: #555555;
+    background-color: #26283a;
 
     /* animatoins */
     transition: all 1s;
@@ -34,14 +34,15 @@ body {
 
 .content {
     display: flex;
+    flex-direction: column;
     gap: 10px;
-    align-items: center;
+    /* align-items: center; */
     /* justify-content: center; */
     margin-bottom: 5px;
 }
 
 .content img {
-    width: 50px;
+    width: 30px;
     padding: 5px;
     border-radius: 20px;
     /* margin-right: 5px; */
@@ -54,13 +55,22 @@ body {
     font-size: 16px;
     /* text-align: justify;
     word-spacing: 5px; */
+    line-height: 20px;
 }
 
-.text-area h1 {
+.title-area {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.title-area h1 {
     font-size: 18px;
     color: #fff;
     font-weight: 600;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .loader {
@@ -69,45 +79,13 @@ body {
     position: absolute;
     bottom: 0px;
     left: 0;
-    background-color: #dbdbdb;
+    /* background-color: #dbdbdb; */
 
     /* anim */
     transition: all 1s;
     animation: loaderAnim 4s forwards;
     animation-delay: 1s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -146,8 +124,14 @@ body {
         width: 0%;
     }
 
+    75% {
+        border-radius: 0;
+    }
+
     100% {
         width: 100%;
+        border-radius: 0 0 15px;
+        background-color: #dbdbdb;
     }
 }
 

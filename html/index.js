@@ -39,25 +39,35 @@ $(document).ready(function () {
         newNotify.innerHTML = `
         <div class="notif" style="border-left: 5px solid ${color};">
             <div class="content">
-                <img src="./images/${iconName}" style="background-color: ${color};">
-                <div class="text-area">
+                <div class="title-area">
                     <h1>${title}</h1>
+                    <img src="./images/${iconName}" style="background-color: ${color};">
+                </div>
+                <div class="text-area">
                     <p id="showmsg">${message}</p>
                 </div>
             </div>
-            <div class="loader"></div>
+            <div class="loader" style="background-color: ${color};"></div>
         </div>
         `;
         if (sound) {
             let audio = new Audio(sound)
-            audio.volume = 1.0
+            audio.volume = 0.2
             audio.play()
         }
         addNotif.appendChild(newNotify)
     
     };
 
+    // For test
     // showNotf(typeDatas["success"].color, typeDatas["success"].image, "Innvox", "notify loaded ! -Team", "./sounds/success.ogg")
+    // showNotf(typeDatas["error"].color, typeDatas["error"].image, "Innvox", "notify loaded ! -Team", "./sounds/error.ogg")
+    // showNotf(typeDatas["warn"].color, typeDatas["warn"].image, "Innvox", "notify loaded ! -Team", "./sounds/warn.ogg")
+    // showNotf(typeDatas["info"].color, typeDatas["info"].image, "Innvox", "notify loaded ! -Team", "./sounds/info.ogg")
+    // showNotf(typeDatas["system"].color, typeDatas["system"].image, "Innvox", "notify loaded ! -Team", "./sounds/system.ogg")
+    // showNotf(typeDatas["announce"].color, typeDatas["announce"].image, "Innvox", "notify loaded ! -Team ", "./sounds/announce.ogg")
+    
+    
     window.addEventListener("message", (event) => {
         let data = event.data
         let type = data.type
