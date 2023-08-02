@@ -8,7 +8,7 @@ modern notify for all servers
 
 
 ## Preview ##
-https://github.com/MMDXd/INNVOX_Notif/assets/97308791/b5c41a3e-288f-465b-8667-9e7f60c22813
+https://cdn.discordapp.com/attachments/791700554275356742/1136295593036222564/InShot_20230802_172020698.gif
 
 
 ## Programming languages used ##
