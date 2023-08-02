@@ -8,7 +8,7 @@ modern notify for all servers
 
 
 ## Preview ##
-![My Image](https://cdn.discordapp.com/attachments/791700554275356742/1136295593036222564/InShot_20230802_172020698.gif)
+![My Image](https://cdn.discordapp.com/attachments/791700554275356742/1136295592449032364/InShot_20230802_172149640.mp4)
 
 
 ## Programming languages used ##
